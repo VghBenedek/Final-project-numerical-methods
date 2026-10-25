@@ -11,4 +11,4 @@ We look at two classic processes:
 - Kuramoto model: every node is an oscillator with its own frequency. The links pull the oscillators toward each other, and if the coupling is strong enough they start to move in sync. We measure this with the order parameter r(t).
 - SIR epidemic model: every node is susceptible, infected or recovered. The infection spreads along the links and infected nodes recover after some time.
 
-Both are systems of differential equations, so we solve them numerically. The project: we generate an Erdős–Rényi random graph ourselves or we use real datas, simulate both processes on it, and compare numerical methods in terms of accuracy, stability and speed.
+Both are systems of differential equations, so we solve them numerically.
